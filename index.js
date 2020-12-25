@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express')
 const bodyParser = require('body-parser');
 
 app = express().use(bodyParser.json());
@@ -47,6 +47,4 @@ app.get('/webhook', (req, res) => {
 
 });
 
-app.listen(3000, () => {
-    console.log('servidor iniciado...')
-});
+app.listen(process.env.PORT || 1337, () => console.log('webhook is listening'));
