@@ -1,0 +1,24 @@
+{
+  "name": "fb-hk-gb",
+  "version": "1.0.0",
+  "description": "prueba de hosting heroku",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhon04/fb-hk-gb.git"
+  },
+  "author": "chugnas ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhon04/fb-hk-gb/issues"
+  },
+  "homepage": "https://github.com/Jhon04/fb-hk-gb#readme"
+}
